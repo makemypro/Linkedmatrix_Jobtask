@@ -1,0 +1,25 @@
+INFO 2022-06-28 01:56:32,703 autoreload 11012 18212 Watching for file changes with StatReloader
+WARNING 2022-06-28 01:56:36,952 log 11012 1728 Not Found: /
+WARNING 2022-06-28 01:56:36,962 basehttp 11012 1728 "GET / HTTP/1.1" 404 2050
+WARNING 2022-06-28 01:56:39,676 log 11012 1728 Not Found: /
+WARNING 2022-06-28 01:56:39,679 basehttp 11012 1728 "GET / HTTP/1.1" 404 2050
+INFO 2022-06-28 01:56:43,902 basehttp 11012 1728 "GET /home/ HTTP/1.1" 200 15
+INFO 2022-06-28 02:00:10,428 autoreload 11012 18212 C:\Users\HAMZA\JobTask\myapp\middleware.py changed, reloading.
+INFO 2022-06-28 02:00:11,943 autoreload 7820 4120 Watching for file changes with StatReloader
+ERROR 2022-06-28 02:00:21,241 log 7820 15664 Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\HAMZA\anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\HAMZA\anaconda3\lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\HAMZA\anaconda3\lib\site-packages\django\middleware\clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'function' object has no attribute 'get'
+ERROR 2022-06-28 02:00:21,249 basehttp 7820 15664 "GET /home/ HTTP/1.1" 500 65445
+INFO 2022-06-28 02:00:31,122 autoreload 7820 4120 C:\Users\HAMZA\JobTask\myapp\middleware.py changed, reloading.
+INFO 2022-06-28 02:00:32,731 autoreload 1672 15740 Watching for file changes with StatReloader
+INFO 2022-06-28 02:00:36,057 basehttp 1672 14316 "GET /home/ HTTP/1.1" 200 15
+INFO 2022-06-28 02:01:59,232 autoreload 1672 15740 C:\Users\HAMZA\JobTask\myapp\middleware.py changed, reloading.
+INFO 2022-06-28 02:02:00,692 autoreload 2560 13500 Watching for file changes with StatReloader
+INFO 2022-06-28 02:02:04,383 basehttp 2560 17324 "GET /home/ HTTP/1.1" 200 15
+INFO 2022-06-28 02:03:06,017 autoreload 2560 13500 C:\Users\HAMZA\JobTask\JobTask\settings.py changed, reloading.
